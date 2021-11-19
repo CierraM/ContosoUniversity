@@ -171,5 +171,12 @@ namespace ContosoUniversity.Controllers
         {
             return _context.Courses.Any(e => e.CourseID == id);
         }
+
+        public IActionResult UpdateCourseCredits()
+        {
+            return View();
+        }
+
+        
     }
 }
